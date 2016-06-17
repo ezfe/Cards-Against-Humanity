@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665FA2121D1486DA0082560A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665FA2111D1486DA0082560A /* AppDelegate.swift */; };
+		665FA2141D1486DA0082560A /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665FA2131D1486DA0082560A /* GameController.swift */; };
+		665FA2161D1486DA0082560A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665FA2151D1486DA0082560A /* Assets.xcassets */; };
+		665FA2191D1486DA0082560A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665FA2171D1486DA0082560A /* Main.storyboard */; };
+		665FA2461D1489120082560A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666D709F1D14535600D31D10 /* Game.swift */; };
+		665FA2471D1489120082560A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A218EE1B6135B600BA9079 /* Player.swift */; };
+		665FA2481D1489120082560A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66280E231B61329600B060A8 /* Card.swift */; };
+		665FA2491D1489120082560A /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666D70A11D1453AD00D31D10 /* Util.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		665FA22F1D1486EF0082560A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		66280E231B61329600B060A8 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = "Cards Against Humanity Core/Card.swift"; sourceTree = SOURCE_ROOT; };
+		665FA20F1D1486DA0082560A /* CAHmacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAHmacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		665FA2111D1486DA0082560A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		665FA2131D1486DA0082560A /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		665FA2151D1486DA0082560A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665FA2181D1486DA0082560A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		665FA21A1D1486DA0082560A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666D709F1D14535600D31D10 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = "Cards Against Humanity Core/Game.swift"; sourceTree = SOURCE_ROOT; };
+		666D70A11D1453AD00D31D10 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Util.swift; path = "Cards Against Humanity Core/Util.swift"; sourceTree = SOURCE_ROOT; };
+		66A218EE1B6135B600BA9079 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "Cards Against Humanity Core/Player.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665FA20C1D1486DA0082560A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66280E101B61310900B060A8 = {
+			isa = PBXGroup;
+			children = (
+				665FA2101D1486DA0082560A /* CAHmacOS */,
+				665FA2451D1489060082560A /* CAHcommon */,
+				66280E1A1B61310900B060A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66280E1A1B61310900B060A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665FA20F1D1486DA0082560A /* CAHmacOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665FA2101D1486DA0082560A /* CAHmacOS */ = {
+			isa = PBXGroup;
+			children = (
+				665FA2111D1486DA0082560A /* AppDelegate.swift */,
+				665FA2131D1486DA0082560A /* GameController.swift */,
+				665FA2151D1486DA0082560A /* Assets.xcassets */,
+				665FA2171D1486DA0082560A /* Main.storyboard */,
+				665FA21A1D1486DA0082560A /* Info.plist */,
+			);
+			name = CAHmacOS;
+			path = "Cards Against Humanity OSX";
+			sourceTree = "<group>";
+		};
+		665FA2451D1489060082560A /* CAHcommon */ = {
+			isa = PBXGroup;
+			children = (
+				666D709F1D14535600D31D10 /* Game.swift */,
+				66A218EE1B6135B600BA9079 /* Player.swift */,
+				66280E231B61329600B060A8 /* Card.swift */,
+				666D70A11D1453AD00D31D10 /* Util.swift */,
+			);
+			name = CAHcommon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665FA20E1D1486DA0082560A /* CAHmacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665FA21D1D1486DA0082560A /* Build configuration list for PBXNativeTarget "CAHmacOS" */;
+			buildPhases = (
+				665FA20B1D1486DA0082560A /* Sources */,
+				665FA20C1D1486DA0082560A /* Frameworks */,
+				665FA20D1D1486DA0082560A /* Resources */,
+				665FA22F1D1486EF0082560A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAHmacOS;
+			productName = "Cards Against Humanity OSX";
+			productReference = 665FA20F1D1486DA0082560A /* CAHmacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66280E111B61310900B060A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ezekiel Elin";
+				TargetAttributes = {
+					665FA20E1D1486DA0082560A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 39QG79F7FD;
+						DevelopmentTeamName = "Ezekiel Elin";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 66280E141B61310900B060A8 /* Build configuration list for PBXProject "Cards Against Humanity Core" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66280E101B61310900B060A8;
+			productRefGroup = 66280E1A1B61310900B060A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665FA20E1D1486DA0082560A /* CAHmacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665FA20D1D1486DA0082560A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665FA2161D1486DA0082560A /* Assets.xcassets in Resources */,
+				665FA2191D1486DA0082560A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665FA20B1D1486DA0082560A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665FA2471D1489120082560A /* Player.swift in Sources */,
+				665FA2491D1489120082560A /* Util.swift in Sources */,
+				665FA2141D1486DA0082560A /* GameController.swift in Sources */,
+				665FA2481D1489120082560A /* Card.swift in Sources */,
+				665FA2461D1489120082560A /* Game.swift in Sources */,
+				665FA2121D1486DA0082560A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		665FA2171D1486DA0082560A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665FA2181D1486DA0082560A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66280E1E1B61310A00B060A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66280E1F1B61310A00B060A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		665FA21B1D1486DA0082560A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Cards Against Humanity OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ezekielelin.Cards-Against-Humanity-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		665FA21C1D1486DA0082560A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Cards Against Humanity OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ezekielelin.Cards-Against-Humanity-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66280E141B61310900B060A8 /* Build configuration list for PBXProject "Cards Against Humanity Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66280E1E1B61310A00B060A8 /* Debug */,
+				66280E1F1B61310A00B060A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665FA21D1D1486DA0082560A /* Build configuration list for PBXNativeTarget "CAHmacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665FA21B1D1486DA0082560A /* Debug */,
+				665FA21C1D1486DA0082560A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66280E111B61310900B060A8 /* Project object */;
+}
